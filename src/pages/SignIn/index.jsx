@@ -12,10 +12,10 @@ export function SignIn() {
     const [password, setPassword] = useState("")
 
 
-    const { signIn} = useAuth()
+    const { signIn } = useAuth()
 
     function handleSignIn(){
-        SignIn({ email, password })
+        signIn({ email, password })
     }
 
     return(
