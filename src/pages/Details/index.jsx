@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 import { Container, Links, Content } from "./styles" 
-import { Header } from "../../components/header"
+import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText"
 import { Section } from "../../components/Section"
